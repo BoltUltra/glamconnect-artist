@@ -88,11 +88,10 @@
         :disabled="!selectedType"
         :class="{ 'opacity-75 cursor-not-allowed': !selectedType }"
         @click="
-          router.push(
-            selectedType === 'customer'
-              ? 'https://glamconnect-customer.vercel.app/auth/login'
-              : '/auth/register',
-          )
+          selectedType === 'customer'
+            ? (window.location.href =
+                'https://glamconnect-customer.vercel.app/auth/login')
+            : router.push('/auth/register')
         "
       >
         Next
