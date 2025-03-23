@@ -89,8 +89,7 @@
         :class="{ 'opacity-75 cursor-not-allowed': !selectedType }"
         @click="
           selectedType === 'customer'
-            ? (window.location.href =
-                'https://glamconnect-customer.vercel.app/auth/login')
+            ? navigateToCustomerSite()
             : router.push('/auth/register')
         "
       >
@@ -110,6 +109,12 @@ const goBack = () => {
 };
 
 const selectedType = ref("artist");
+
+const navigateToCustomerSite = () => {
+  if (typeof window !== "undefined") {
+    window.open("https://glamconnect-customer.vercel.app/auth/login", "_blank");
+  }
+};
 
 const titleAnimation = {
   initial: { opacity: 0, y: -20 },
