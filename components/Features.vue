@@ -3,7 +3,9 @@
 <template>
   <section class="md:px-20 px-5 py-10">
     <div class="">
-      <h2 class="text-3xl font-semibold text-gray-900 animate-slide-up">
+      <h2
+        class="text-3xl font-semibold text-gray-900 dark:text-white animate-slide-up"
+      >
         What sets us apart
       </h2>
     </div>
@@ -13,7 +15,7 @@
           <h3 class="text-3xl font-semibold">
             Seamless Booking Experience and appointment management
           </h3>
-          <p class="text-gray-600 text-lg">
+          <p class="text-gray-600 dark:text-gray-100 text-lg">
             Effortlessly book your beauty appointments anytime, anywhere. Choose
             from a variety of services and find the perfect time that fits your
             schedule — no phone calls, no hassle. Business owners can also
@@ -34,7 +36,7 @@
           <h3 class="text-3xl font-semibold">
             Real-Time Ratings You Can Trust
           </h3>
-          <p class="text-gray-600 text-lg">
+          <p class="text-gray-600 dark:text-gray-100 text-lg">
             Trust what you see! Real-time ratings from verified clients help you
             choose the best salons, ensuring that every visit meets your
             expectations Business owners Your work speaks for itself! With live
@@ -48,7 +50,7 @@
           <h3 class="text-3xl font-semibold">
             Real-Time Ratings You Can Trust
           </h3>
-          <p class="text-gray-600 text-lg">
+          <p class="text-gray-600 dark:text-gray-100 text-lg">
             Never miss an appointment or promotion! Get instant notifications
             for booking confirmations, reminders, and exclusive deals from your
             favorite salons Business owners Stay connected! Receive instant

@@ -1,10 +1,10 @@
 <script setup></script>
 
 <template>
-  <footer
-    class="bg-[#E7E7E7] md:px-20 px-5 relative py-20 text-[#5D6474] max-w-[1440px] mx-auto"
-  >
-    <div class="">
+  <footer class="bg-[#E7E7E7]">
+    <div
+      class="md:px-20 px-5 relative py-20 text-[#5D6474] max-w-[1440px] mx-auto"
+    >
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
         <!-- Logo and Social Section -->
         <div class="space-y-6 lg:col-span-2">

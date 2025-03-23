@@ -73,7 +73,7 @@
           <div class="relative">
             <img src="/images/cta.png" alt="" class="relative" />
             <div
-              class="bg-white absolute bottom-2 px-5 py-7 rounded-xl mx-5 text-lg"
+              class="bg-white dark:text-gray-600 absolute bottom-2 px-5 py-7 rounded-xl mx-5 text-lg"
             >
               <p>
                 “A true makeup artist doesn't just enhance features; they reveal

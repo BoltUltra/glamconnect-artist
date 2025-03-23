@@ -46,13 +46,15 @@ const recommendedSalons = ref([
 </script>
 <template>
   <section class="md:pl-20 pl-5 my-10 mt-20">
-    <h2 class="text-3xl font-semibold text-gray-900">Recommended</h2>
+    <h2 class="text-3xl font-semibold text-gray-900 dark:text-white">
+      Recommended
+    </h2>
     <div class="mt-6 flex overflow-x-auto gap-6">
       <NuxtLink
         v-for="salon in recommendedSalons"
         :key="salon.name"
         :to="`/salon/${salon.id}`"
-        class="bg-white shadow-md rounded-lg overflow-hidden animate-zoom-in min-w-[400px] mb-5"
+        class="bg-white dark:bg-gray-600 shadow-md rounded-lg overflow-hidden animate-zoom-in min-w-[400px] mb-5"
       >
         <div class="relative">
           <img
@@ -67,11 +69,11 @@ const recommendedSalons = ref([
             <p class="text-sm">{{ salon.totalReviews }} Reviews</p>
           </div>
         </div>
-        <div class="p-3">
+        <div class="p-3 text-gray-600 dark:text-white">
           <h3 class="text-xl font-medium">{{ salon.name }}</h3>
-          <p class="text-gray-600">{{ salon.address }}</p>
-          <p class="text-gray-600">Total Reviews: {{ salon.totalReviews }}</p>
-          <p class="text-gray-600">Average Review:</p>
+          <p class="">{{ salon.address }}</p>
+          <p class="">Total Reviews: {{ salon.totalReviews }}</p>
+          <p class="">Average Review: {{ salon.averageReview }}</p>
         </div>
       </NuxtLink>
     </div>

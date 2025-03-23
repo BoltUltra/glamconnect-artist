@@ -2,10 +2,12 @@
 
 <template>
   <section class="md:px-20 px-5 text-center my-10">
-    <h2 class="text-3xl font-semibold text-gray-900 animate-slide-up">
+    <h2
+      class="text-3xl font-semibold text-gray-900 dark:text-white animate-slide-up"
+    >
       What we do at GlamConnect
     </h2>
-    <p class="mt-4 text-gray-600 md:px-10 text-lg">
+    <p class="mt-4 text-gray-600 dark:text-gray-100 md:px-10 text-lg">
       ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
       doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
       inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.

@@ -39,18 +39,26 @@ const navItems = [
 
         <div class="hidden lg:flex items-center space-x-3">
           <ThemeToggle />
+          <!--          <div class="flex items-center space-x-3">-->
+          <!--            <NuxtLink-->
+          <!--              href="/auth/register"-->
+          <!--              class="bg-white py-3 px-14 rounded-2xl text-primary-500 border border-primary-500"-->
+          <!--            >-->
+          <!--              Sign Up-->
+          <!--            </NuxtLink>-->
+          <!--            <NuxtLink-->
+          <!--              href="/auth/login"-->
+          <!--              class="bg-primary-500 py-3 px-16 rounded-2xl text-white border border-primary-500"-->
+          <!--            >-->
+          <!--              Sign In-->
+          <!--            </NuxtLink>-->
+          <!--          </div>-->
           <div class="flex items-center space-x-3">
             <NuxtLink
-              href="/auth/register"
-              class="bg-white py-3 px-14 rounded-2xl text-primary-500 border border-primary-500"
-            >
-              Sign Up
-            </NuxtLink>
-            <NuxtLink
-              href="/auth/login"
+              href="/user-type"
               class="bg-primary-500 py-3 px-16 rounded-2xl text-white border border-primary-500"
             >
-              Sign In
+              Get Started
             </NuxtLink>
           </div>
         </div>

@@ -28,7 +28,7 @@ html {
 }
 
 .container__custom{
-    @apply px-4 md:px-10  max-w-[1440px] lg:px-16 mx-auto
+    @apply px-4 md:px-10 max-w-[1440px] lg:px-16 mx-auto
 }
 
 .section-button {
